@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Tile /> renders successfullly 1`] = `
+.c0 {
+  color: blue;
+}
+
+<div
+  className="c0"
+>
+  Tile
+</div>
+`;

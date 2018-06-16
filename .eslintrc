@@ -2,7 +2,8 @@
   "extends": "react-app",
   "plugins": ["prettier"],
   "rules": {
-    "prettier/prettier": "warn"
+    "prettier/prettier": "warn",
+    "jsx-a11y/href-no-hash": "off"
   }
 }
 

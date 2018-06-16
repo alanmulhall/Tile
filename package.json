@@ -5,6 +5,7 @@
   "devDependencies": {
     "@storybook/addon-centered": "^3.4.7",
     "@storybook/react": "^3.4.7",
+    "@storybook/storybook-deployer": "^2.3.0",
     "babel-core": "^6.26.3",
     "babel-jest": "^23.0.1",
     "babel-preset-latest": "^6.24.1",
@@ -30,7 +31,8 @@
   "scripts": {
     "storybook": "start-storybook -p 9001 -c .storybook",
     "precommit": "pretty-quick --staged",
-    "test": "jest --json --outputFile=.jest-test-results.json"
+    "test": "jest --json --outputFile=.jest-test-results.json",
+    "deploy-storybook": "storybook-to-ghpages"
   },
   "jest": {
     "moduleFileExtensions": [

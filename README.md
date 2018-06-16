@@ -19,3 +19,9 @@ yarn test
 ```
 yarn test && open ./coverage/lcov-report/index.html
 ```
+
+### Deploy
+
+```
+yarn deploy-storybook
+```

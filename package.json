@@ -23,6 +23,7 @@
     "eslint-plugin-prettier": "^2.6.0",
     "eslint-plugin-react": "^7.9.1",
     "husky": "^0.14.3",
+    "jest": "^23.1.0",
     "jest-styled-components": "^5.0.1",
     "prettier": "1.13.5",
     "pretty-quick": "^1.6.0",
@@ -38,7 +39,7 @@
   "scripts": {
     "storybook": "start-storybook -p 9001 -c .storybook",
     "precommit": "yarn test && yarn lint && pretty-quick --staged",
-    "test": "jest",
+    "test": "node_modules/jest/bin/jest.js",
     "test:output": "jest --json --outputFile=.jest-test-results.json",
     "deploy-storybook": "storybook-to-ghpages",
     "lint": "node_modules/eslint/bin/eslint.js --fix --ext .js src/** --config .eslintrc"

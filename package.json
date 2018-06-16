@@ -31,8 +31,9 @@
   "scripts": {
     "storybook": "start-storybook -p 9001 -c .storybook",
     "precommit": "pretty-quick --staged",
-    "test": "jest --json --outputFile=.jest-test-results.json",
-    "deploy-storybook": "storybook-to-ghpages"
+    "test": "jest",
+    "test:output": "jest --json --outputFile=.jest-test-results.json",
+    "deploy-storybook": "yarn test:output && storybook-to-ghpages"
   },
   "jest": {
     "moduleFileExtensions": [

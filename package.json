@@ -1,0 +1,45 @@
+{
+  "name": "Tile",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "@storybook/addon-centered": "^3.4.7",
+    "@storybook/react": "^3.4.7",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.0.1",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-runtime": "^6.26.0",
+    "enzyme": "^3.3.0",
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.9.0",
+    "husky": "^0.14.3",
+    "jest-styled-components": "^5.0.1",
+    "prettier": "1.13.5",
+    "pretty-quick": "^1.6.0",
+    "react-test-renderer": "^16.4.1",
+    "storybook-addon-jest": "^0.0.1"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "styled-components": "^3.3.2"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 9001 -c .storybook",
+    "precommit": "pretty-quick --staged",
+    "test": "jest --json --outputFile=.jest-test-results.json"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js"
+    ],
+    "testPathIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "collectCoverage": true,
+    "verbose": true
+  }
+}

@@ -2,7 +2,7 @@
 
 exports[`<Tile /> renders successfullly 1`] = `
 .c0 {
-  color: blue;
+  color: grey;
 }
 
 <div

@@ -25,3 +25,9 @@ yarn test && open ./coverage/lcov-report/index.html
 ```
 yarn deploy-storybook
 ```
+
+### View on Github pages
+
+```
+open https://alanmulhall.github.io/Tile
+```

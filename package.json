@@ -41,6 +41,7 @@
     "precommit": "yarn test && yarn lint && pretty-quick --staged",
     "test": "node_modules/jest/bin/jest.js",
     "test:output": "jest --json --outputFile=.jest-test-results.json",
+    "build-storybook": "build-storybook",
     "deploy-storybook": "storybook-to-ghpages",
     "lint": "node_modules/eslint/bin/eslint.js --fix --ext .js src/** --config .eslintrc"
   },

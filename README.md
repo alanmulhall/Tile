@@ -34,6 +34,12 @@ yarn lint
 yarn deploy-storybook
 ```
 
+### View on TravisCI
+
+```
+open https://travis-ci.org/alanmulhall/Tile
+```
+
 ### View on Github pages
 
 ```

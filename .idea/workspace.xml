@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b630a1b-0df2-42df-b884-691bc6895989" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.storybook/addons.js" afterPath="$PROJECT_DIR$/.storybook/addons.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Tile/Tile.js" afterPath="$PROJECT_DIR$/src/components/Tile/Tile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Tile/Tile.story.js" afterPath="$PROJECT_DIR$/src/components/Tile/Tile.story.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Tile/Tile.test.js" afterPath="$PROJECT_DIR$/src/components/Tile/Tile.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Tile/__snapshots__/Tile.test.js.snap" afterPath="$PROJECT_DIR$/src/components/Tile/__snapshots__/Tile.test.js.snap" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Tile/styles/Tile.js" afterPath="$PROJECT_DIR$/src/components/Tile/styles/Tile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/stories/index.js" afterPath="$PROJECT_DIR$/src/stories/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styled/theme.js" afterPath="$PROJECT_DIR$/src/styled/theme.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yarn.lock" afterPath="$PROJECT_DIR$/yarn.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/setupTests.js" afterPath="$PROJECT_DIR$/src/setupTests.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,13 +19,41 @@
     <splitter split-orientation="horizontal" split-proportion="0.5624413">
       <split-first>
         <leaf>
-          <file leaf-file-name="Tile.test.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Tile.test.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/Tile/Tile.test.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="717">
-                  <caret line="44" column="16" lean-forward="false" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
+                <state relative-caret-position="1064">
+                  <caret line="56" column="16" lean-forward="false" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Tile.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/Tile/styles/Tile.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="19">
+                  <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+                  <folding>
+                    <marker date="1529223589307" expanded="true" signature="260:301" ph="{...}" />
+                    <marker date="1529223589307" expanded="true" signature="350:394" ph="{...}" />
+                    <marker date="1529223589307" expanded="true" signature="361:393" ph="{...}" />
+                    <marker date="1529223589307" expanded="true" signature="438:609" ph="{...}" />
+                    <marker date="1529223589307" expanded="true" signature="651:719" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="setupTests.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/setupTests.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#0#35#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -46,6 +66,7 @@
                   <caret line="17" column="34" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="34" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
+                    <marker date="1529223479345" expanded="true" signature="536:711" ph="&lt;Tile/&gt;" />
                   </folding>
                 </state>
               </provider>
@@ -95,7 +116,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/setupTests.js" />
         <option value="$PROJECT_DIR$/src/utils/shallowThemeProviderWrapper.js" />
         <option value="$PROJECT_DIR$/src/utils/mountThemeProviderWrapper.js" />
         <option value="$PROJECT_DIR$/src/components/Overlay/Overlay.story.js" />
@@ -105,6 +125,8 @@
         <option value="$PROJECT_DIR$/src/utils/pxToRem.test.js" />
         <option value="$PROJECT_DIR$/src/components/Tile/Tile.js" />
         <option value="$PROJECT_DIR$/src/components/Tile/Tile.test.js" />
+        <option value="$PROJECT_DIR$/src/components/Tile/styles/Tile.js" />
+        <option value="$PROJECT_DIR$/src/setupTests.js" />
       </list>
     </option>
   </component>
@@ -150,39 +172,6 @@
               <item name="Tile" type="b2602c69:ProjectViewProjectNode" />
               <item name="Tile" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Tile" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Tile" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Tile" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Tile" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Tile" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Tile" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Tile" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Tile" type="462c0819:PsiDirectoryNode" />
-              <item name="__snapshots__" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Tile" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Tile" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Tile" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Tile" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -302,7 +291,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1529197084596</updated>
-      <workItem from="1529197086031" duration="10605000" />
+      <workItem from="1529197086031" duration="10725000" />
     </task>
     <servers />
   </component>
@@ -339,7 +328,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10605000" />
+    <option name="totallyTimeSpent" value="10725000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -385,16 +374,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/setupTests.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="38" lean-forward="false" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/mountThemeProviderWrapper.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -410,7 +389,7 @@
         <state relative-caret-position="57">
           <caret line="3" column="14" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
           <folding>
-            <marker date="1529153686063" expanded="true" signature="81:405" ph="{...}" />
+            <marker date="1529223479343" expanded="true" signature="81:407" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -420,7 +399,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1529155785945" expanded="true" signature="62:233" ph="{...}" />
+            <marker date="1529223479341" expanded="true" signature="62:233" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -633,16 +612,41 @@
           <caret line="17" column="34" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="34" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+            <marker date="1529223479345" expanded="true" signature="536:711" ph="&lt;Tile/&gt;" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Tile/Tile.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="717">
-          <caret line="44" column="16" lean-forward="false" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
+        <state relative-caret-position="1064">
+          <caret line="56" column="16" lean-forward="false" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Tile/styles/Tile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <marker date="1529223589307" expanded="true" signature="260:301" ph="{...}" />
+            <marker date="1529223589307" expanded="true" signature="350:394" ph="{...}" />
+            <marker date="1529223589307" expanded="true" signature="361:393" ph="{...}" />
+            <marker date="1529223589307" expanded="true" signature="438:609" ph="{...}" />
+            <marker date="1529223589307" expanded="true" signature="651:719" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/setupTests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>

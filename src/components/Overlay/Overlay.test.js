@@ -11,7 +11,11 @@ describe('<Overlay />', () => {
   });
 
   it('renders its children', () => {
-    const wrapper = shallow(<Overlay><p>Solo</p></Overlay>);
+    const wrapper = shallow(
+      <Overlay>
+        <p>Solo</p>
+      </Overlay>
+    );
     expect(wrapper.find('Overlay').children().length).toEqual(1);
   });
 

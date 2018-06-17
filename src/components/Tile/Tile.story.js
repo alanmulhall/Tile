@@ -15,7 +15,7 @@ const TileStory = () =>
     .add('Default', () => (
       <Tile
         image={tileImage}
-        onClick={action('clicked')} 
+        onClick={action('clicked')}
         size={select('Size', ['small', 'medium', 'large'], 'small')}
         title="Home and Away"
       />

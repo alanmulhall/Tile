@@ -30,6 +30,6 @@ class Tile extends PureComponent {
       </TileStyled>
     );
   }
-};
+}
 
 export default Tile;

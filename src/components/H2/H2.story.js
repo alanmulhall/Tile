@@ -8,6 +8,8 @@ const H2Story = () =>
   storiesOf('H2', module)
     .addDecorator(centered)
     .addDecorator(withTests('H2'))
-    .add('Default', () => <H2>That’s been one of my mantras - focus and simplicity.</H2>);
+    .add('Default', () => (
+      <H2>That’s been one of my mantras - focus and simplicity.</H2>
+    ));
 
 export default H2Story;

@@ -10,8 +10,8 @@ exports[`<Tile image={tileImage} /> renders successfully 1`] = `
 
 .c2 {
   height: 100%;
-  -webkit-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
   object-fit: scale-down;
   width: 100%;
 }
@@ -100,8 +100,8 @@ exports[`<Tile image={tileImage} /> size large renders successfully 1`] = `
 
 .c2 {
   height: 100%;
-  -webkit-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
   object-fit: scale-down;
   width: 100%;
 }
@@ -190,8 +190,8 @@ exports[`<Tile image={tileImage} /> size medium renders successfully 1`] = `
 
 .c2 {
   height: 100%;
-  -webkit-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
   object-fit: scale-down;
   width: 100%;
 }
@@ -280,8 +280,8 @@ exports[`<Tile image={tileImage} /> size small renders successfully 1`] = `
 
 .c2 {
   height: 100%;
-  -webkit-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
   object-fit: scale-down;
   width: 100%;
 }

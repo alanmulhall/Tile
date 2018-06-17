@@ -4,6 +4,6 @@
  * pxToRem('16px') -> 1rem
  * @param {String} px the pixel unit to convert
  */
-const pxToRem = px => (`${px.replace('px', '') / 16}rem`);
+const pxToRem = px => `${px.replace('px', '') / 16}rem`;
 
 export default pxToRem;

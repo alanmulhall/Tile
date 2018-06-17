@@ -10,8 +10,6 @@ const OverlayStory = () =>
     .addDecorator(centered)
     .addDecorator(withKnobs)
     .addDecorator(withTests('Overlay'))
-    .add('Default', () => (
-      <Overlay fullscreen={boolean('Fullscreen', true)} />
-    ));
+    .add('Default', () => <Overlay fullscreen={boolean('Fullscreen', true)} />);
 
 export default OverlayStory;

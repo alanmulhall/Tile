@@ -3,3 +3,4 @@ coverage
 yarn-error.log
 node_modules
 storybook-static
+.idea/

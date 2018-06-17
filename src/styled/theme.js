@@ -23,11 +23,9 @@ const theme = {
   },
   spacing: {
     xm: pxToRem('11px'),
-    m: pxToRem('13px'),
+    m: pxToRem('13px')
   },
-  zIndex: [
-    100
-  ]
+  zIndex: [100]
 };
 
 export default theme;

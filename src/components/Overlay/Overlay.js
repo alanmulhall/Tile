@@ -15,7 +15,9 @@ const propTypes = {
 };
 
 const Overlay = ({ children, className, fullscreen }) => (
-  <OverlayStyled className={className} fullscreen={fullscreen}>{children}</OverlayStyled>
+  <OverlayStyled className={className} fullscreen={fullscreen}>
+    {children}
+  </OverlayStyled>
 );
 
 Overlay.defaultProps = defaultProps;

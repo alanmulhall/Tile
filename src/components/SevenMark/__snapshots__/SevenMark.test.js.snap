@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SevenMark /> renders successfullly 1`] = `
+<img
+  alt="Channel 7"
+  src="test-file-stub"
+/>
+`;

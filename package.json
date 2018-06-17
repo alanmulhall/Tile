@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "devDependencies": {
+    "@storybook/addon-actions": "^3.4.7",
     "@storybook/addon-centered": "^3.4.7",
+    "@storybook/addon-knobs": "^3.4.7",
     "@storybook/react": "^3.4.7",
     "babel-core": "^6.26.3",
     "babel-eslint": "^8.2.3",
@@ -13,6 +15,7 @@
     "babel-preset-stage-0": "^6.24.1",
     "babel-runtime": "^6.26.0",
     "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
     "eslint": "^4.19.1",
     "eslint-config-prettier": "^2.9.0",
     "eslint-config-react-app": "^2.1.0",
@@ -44,6 +47,12 @@
     "lint": "node_modules/eslint/bin/eslint.js --fix --ext .js src/** --config .eslintrc"
   },
   "jest": {
+    "setupFiles": [
+      "<rootDir>/src/setupTests.js"
+    ],
+    "moduleNameMapper": {
+      "^.+\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/src/utils/__mocks__/fileMock.js"
+    },
     "moduleFileExtensions": [
       "js"
     ],

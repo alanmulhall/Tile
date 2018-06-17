@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<H2 /> renders successfullly 1`] = `
+.c0 {
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 1rem;
+  line-height: 1.2;
+  margin: 0;
+}
+
+<h2
+  className="c0"
+/>
+`;

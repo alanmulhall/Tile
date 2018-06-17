@@ -1,13 +1,361 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Tile /> renders successfullly 1`] = `
-.c0 {
-  color: grey;
+exports[`<Tile image={tileImage} /> renders successfully 1`] = `
+.c6 {
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 1rem;
+  line-height: 1.2;
+  margin: 0;
 }
 
-<div
+.c2 {
+  height: 100%;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  object-fit: scale-down;
+  width: 100%;
+}
+
+.c4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.c0 {
+  cursor: pointer;
+  height: calc(177px * 1);
+  position: relative;
+  overflow: hidden;
+  width: calc(315px * 1);
+}
+
+.c5 {
+  height: 34px;
+  margin-right: 0.8125rem;
+}
+
+.c3 {
+  background: rgba(0,0,0,0.65);
+  box-sizing: border-box;
+  color: white;
+  left: 0;
+  bottom: 0;
+  padding: 0.6875rem 0.8125rem;
+  position: absolute;
+  height: auto;
+  width: 100%;
+  z-index: 100;
+}
+
+<figure
   className="c0"
+  onClick={[Function]}
+  size="small"
 >
-  Tile
-</div>
+  <img
+    alt="Home and Away"
+    className="c1 c2"
+    src="test-file-stub"
+  />
+  <div
+    className="c3"
+  >
+    <figcaption
+      className="c4"
+    >
+      <img
+        alt="Channel 7"
+        className="c5"
+        src="test-file-stub"
+      />
+      <h2
+        className="c6"
+      >
+        Home and Away
+      </h2>
+    </figcaption>
+  </div>
+</figure>
+`;
+
+exports[`<Tile image={tileImage} /> size large renders successfully 1`] = `
+.c6 {
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 1rem;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.c2 {
+  height: 100%;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  object-fit: scale-down;
+  width: 100%;
+}
+
+.c4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.c0 {
+  cursor: pointer;
+  height: calc(177px * 2);
+  position: relative;
+  overflow: hidden;
+  width: calc(315px * 2);
+}
+
+.c5 {
+  height: 34px;
+  margin-right: 0.8125rem;
+}
+
+.c3 {
+  background: rgba(0,0,0,0.65);
+  box-sizing: border-box;
+  color: white;
+  left: 0;
+  bottom: 0;
+  padding: 0.6875rem 0.8125rem;
+  position: absolute;
+  height: auto;
+  width: 100%;
+  z-index: 100;
+}
+
+<figure
+  className="c0"
+  onClick={[Function]}
+  size="large"
+>
+  <img
+    alt="Home and Away"
+    className="c1 c2"
+    src="test-file-stub"
+  />
+  <div
+    className="c3"
+  >
+    <figcaption
+      className="c4"
+    >
+      <img
+        alt="Channel 7"
+        className="c5"
+        src="test-file-stub"
+      />
+      <h2
+        className="c6"
+      >
+        Home and Away
+      </h2>
+    </figcaption>
+  </div>
+</figure>
+`;
+
+exports[`<Tile image={tileImage} /> size medium renders successfully 1`] = `
+.c6 {
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 1rem;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.c2 {
+  height: 100%;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  object-fit: scale-down;
+  width: 100%;
+}
+
+.c4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.c0 {
+  cursor: pointer;
+  height: calc(177px * 1.5);
+  position: relative;
+  overflow: hidden;
+  width: calc(315px * 1.5);
+}
+
+.c5 {
+  height: 34px;
+  margin-right: 0.8125rem;
+}
+
+.c3 {
+  background: rgba(0,0,0,0.65);
+  box-sizing: border-box;
+  color: white;
+  left: 0;
+  bottom: 0;
+  padding: 0.6875rem 0.8125rem;
+  position: absolute;
+  height: auto;
+  width: 100%;
+  z-index: 100;
+}
+
+<figure
+  className="c0"
+  onClick={[Function]}
+  size="medium"
+>
+  <img
+    alt="Home and Away"
+    className="c1 c2"
+    src="test-file-stub"
+  />
+  <div
+    className="c3"
+  >
+    <figcaption
+      className="c4"
+    >
+      <img
+        alt="Channel 7"
+        className="c5"
+        src="test-file-stub"
+      />
+      <h2
+        className="c6"
+      >
+        Home and Away
+      </h2>
+    </figcaption>
+  </div>
+</figure>
+`;
+
+exports[`<Tile image={tileImage} /> size small renders successfully 1`] = `
+.c6 {
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 1rem;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.c2 {
+  height: 100%;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  object-fit: scale-down;
+  width: 100%;
+}
+
+.c4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.c0 {
+  cursor: pointer;
+  height: calc(177px * 1);
+  position: relative;
+  overflow: hidden;
+  width: calc(315px * 1);
+}
+
+.c5 {
+  height: 34px;
+  margin-right: 0.8125rem;
+}
+
+.c3 {
+  background: rgba(0,0,0,0.65);
+  box-sizing: border-box;
+  color: white;
+  left: 0;
+  bottom: 0;
+  padding: 0.6875rem 0.8125rem;
+  position: absolute;
+  height: auto;
+  width: 100%;
+  z-index: 100;
+}
+
+<figure
+  className="c0"
+  onClick={[Function]}
+  size="small"
+>
+  <img
+    alt="Home and Away"
+    className="c1 c2"
+    src="test-file-stub"
+  />
+  <div
+    className="c3"
+  >
+    <figcaption
+      className="c4"
+    >
+      <img
+        alt="Channel 7"
+        className="c5"
+        src="test-file-stub"
+      />
+      <h2
+        className="c6"
+      >
+        Home and Away
+      </h2>
+    </figcaption>
+  </div>
+</figure>
 `;

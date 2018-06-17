@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ResponsiveImage /> renders successfullly 1`] = `
+.c0 {
+  height: 100%;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  object-fit: scale-down;
+  width: 100%;
+}
+
+<img
+  className="c0"
+/>
+`;

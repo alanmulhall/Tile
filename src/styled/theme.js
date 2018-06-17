@@ -1,9 +1,6 @@
 import pxToRem from '../utils/pxToRem';
 
 const theme = {
-  colors: {
-    primary: 'grey'
-  },
   fonts: {
     primary: 'Helvetica, Arial, sans-serif'
   },

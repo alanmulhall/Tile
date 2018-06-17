@@ -8,8 +8,6 @@ const SevenMarkStory = () =>
   storiesOf('SevenMark', module)
     .addDecorator(centered)
     .addDecorator(withTests('SevenMark'))
-    .add('Default', () => (
-      <SevenMark />
-    ));
+    .add('Default', () => <SevenMark />);
 
 export default SevenMarkStory;

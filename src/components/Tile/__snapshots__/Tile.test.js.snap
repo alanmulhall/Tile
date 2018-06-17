@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Tile image={tileImage} /> renders successfully 1`] = `
+exports[`<Tile /> renders successfully 1`] = `
 .c2 {
   height: 100%;
   -webkit-transition: all 0.2s ease-in-out;
@@ -90,7 +90,7 @@ exports[`<Tile image={tileImage} /> renders successfully 1`] = `
 </figure>
 `;
 
-exports[`<Tile image={tileImage} /> size large renders successfully 1`] = `
+exports[`<Tile /> size large renders successfully 1`] = `
 .c2 {
   height: 100%;
   -webkit-transition: all 0.2s ease-in-out;
@@ -180,7 +180,7 @@ exports[`<Tile image={tileImage} /> size large renders successfully 1`] = `
 </figure>
 `;
 
-exports[`<Tile image={tileImage} /> size medium renders successfully 1`] = `
+exports[`<Tile /> size medium renders successfully 1`] = `
 .c2 {
   height: 100%;
   -webkit-transition: all 0.2s ease-in-out;
@@ -270,7 +270,7 @@ exports[`<Tile image={tileImage} /> size medium renders successfully 1`] = `
 </figure>
 `;
 
-exports[`<Tile image={tileImage} /> size small renders successfully 1`] = `
+exports[`<Tile /> size small renders successfully 1`] = `
 .c2 {
   height: 100%;
   -webkit-transition: all 0.2s ease-in-out;

@@ -9,7 +9,7 @@ import { Caption, Image } from './styles/Tile';
 import Title from '../H2/H2';
 import tileImage from '../../images/tile.jpg';
 
-describe('<Tile image={tileImage} />', () => {
+describe('<Tile />', () => {
   it('renders successfully', () => {
     const tree = renderer(
       <Tile image={tileImage} title="Home and Away" onClick={() => {}} />

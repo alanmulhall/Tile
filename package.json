@@ -42,7 +42,7 @@
     "storybook": "start-storybook -p 9001 -c .storybook",
     "precommit": "yarn test && yarn lint && pretty-quick --staged",
     "test": "node_modules/jest/bin/jest.js",
-    "test:output": "jest --json --outputFile=.jest-test-results.json",
+    "test:output": "node_modules/jest/bin/jest.js --json --outputFile=.jest-test-results.json",
     "build-storybook": "build-storybook",
     "lint": "node_modules/eslint/bin/eslint.js --fix --ext .js src/** --config .eslintrc"
   },

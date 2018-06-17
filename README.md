@@ -1,6 +1,8 @@
-## Tile
+# Tile
 
 A react app using storybook to render and test components.
+On push to github, Travis CI is run, if tests pass the Storybook
+is deployed to github pages.
 
 ### Run
 
@@ -18,6 +20,12 @@ yarn test
 
 ```
 yarn test && open ./coverage/lcov-report/index.html
+```
+
+### Lint
+
+```
+yarn lint
 ```
 
 ### Deploy
